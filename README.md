@@ -1,3 +1,24 @@
+## Database Design
+
+### Users
+- **Fields:** id, username, email, password, date_joined
+- **Relationships:** Can own multiple properties, make bookings, and leave reviews.
+
+### Properties
+- **Fields:** id, owner_id, title, description, location, price_per_night
+- **Relationships:** Belongs to a user (owner), can have multiple bookings and reviews.
+
+### Bookings
+- **Fields:** id, user_id, property_id, start_date, end_date, status
+- **Relationships:** Belongs to a user and a property.
+
+### Reviews
+- **Fields:** id, user_id, property_id, rating, comment, created_at
+- **Relationships:** Belongs to a user and a property.
+
+### Payments
+- **Fields:** id, booking_id, amount, payment_date, status
+- **Relationships:** Linked to a booking.
 
 # Airbnb Clone Project Backend
 
