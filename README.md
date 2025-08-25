@@ -1,3 +1,16 @@
+## CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of testing, building, and deploying the application. This ensures that new changes are integrated smoothly and deployed reliably, reducing manual errors and speeding up delivery.
+
+**Benefits:**
+- Automated testing for higher code quality
+- Faster and more reliable deployments
+- Early detection of issues
+- Consistent environments across development, testing, and production
+
+**Tools Used:**
+- GitHub Actions: Automates testing, building, and deployment workflows.
+- Docker: Ensures consistent environments across all stages.
 ## API Security
 
 - **Authentication:** Ensures only registered users can access protected endpoints, typically using JWT or session-based authentication.
