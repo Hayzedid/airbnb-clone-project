@@ -1,3 +1,11 @@
+## API Security
+
+- **Authentication:** Ensures only registered users can access protected endpoints, typically using JWT or session-based authentication.
+- **Authorization:** Restricts access to resources based on user roles and permissions (e.g., only property owners can edit their listings).
+- **Rate Limiting:** Prevents abuse by limiting the number of requests a user can make in a given time frame.
+- **Data Validation & Encryption:** Protects user data by validating inputs and encrypting sensitive information.
+
+Security is crucial to protect user data, prevent unauthorized access, and ensure safe financial transactions.
 ## Database Design
 
 ### Users
